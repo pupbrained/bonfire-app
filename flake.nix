@@ -101,7 +101,7 @@
         inherit src version;
         installPhase = fetchMixInstallPhase {mixEnv = "prod";};
         # nix will complain and tell you the right value to replace this with if deps change
-        sha256 = "7MGvdRnrzrfCBX8c/nScHrTzmaaWKzre4buQzw0gYGE=";
+        sha256 = "sha256-P37ANFpWTzWWBr4KMRf1aAMxVozdo+kSGDV29U/OsQk=";
       };
 
       # mix release definition
